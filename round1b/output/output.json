@@ -1,0 +1,241 @@
+{
+  "metadata": {
+    "input_documents": [
+      "3_1 Solving Problems by Searching AI.pdf",
+      "3_2 Uninformed Search Strategies.pdf",
+      "3_3 Informed Search Strategies.pdf"
+    ],
+    "persona": "Computer Science Undergraduate Student",
+    "job_to_be_done": "Summarize key concepts about binary trees and search trees for exam revision",
+    "processing_timestamp": "2025-07-26T07:02:30.354628"
+  },
+  "extracted_sections": [
+    {
+      "page_number": 11,
+      "section_title": "1. STATES",
+      "score": 1.5,
+      "document": "3_1 Solving Problems by Searching AI.pdf",
+      "importance_rank": 1
+    },
+    {
+      "page_number": 11,
+      "section_title": "2. INITIAL STATE",
+      "score": 1.5,
+      "document": "3_1 Solving Problems by Searching AI.pdf",
+      "importance_rank": 2
+    },
+    {
+      "page_number": 11,
+      "section_title": "3. ACTIONS",
+      "score": 1.5,
+      "document": "3_1 Solving Problems by Searching AI.pdf",
+      "importance_rank": 3
+    },
+    {
+      "page_number": 11,
+      "section_title": "4. TRANSITION",
+      "score": 1.5,
+      "document": "3_1 Solving Problems by Searching AI.pdf",
+      "importance_rank": 4
+    },
+    {
+      "page_number": 11,
+      "section_title": "5. GOAL STATES",
+      "score": 1.5,
+      "document": "3_1 Solving Problems by Searching AI.pdf",
+      "importance_rank": 5
+    },
+    {
+      "page_number": 12,
+      "section_title": "COST OPTIMALITY",
+      "score": 1.5,
+      "document": "3_2 Uninformed Search Strategies.pdf",
+      "importance_rank": 1
+    },
+    {
+      "page_number": 12,
+      "section_title": "TIME COMPLEXITY",
+      "score": 1.5,
+      "document": "3_2 Uninformed Search Strategies.pdf",
+      "importance_rank": 2
+    },
+    {
+      "page_number": 12,
+      "section_title": "SPACE COMPLEXITY",
+      "score": 1.5,
+      "document": "3_2 Uninformed Search Strategies.pdf",
+      "importance_rank": 3
+    },
+    {
+      "page_number": 2,
+      "section_title": "initial state",
+      "score": 1,
+      "document": "3_2 Uninformed Search Strategies.pdf",
+      "importance_rank": 4
+    },
+    {
+      "page_number": 2,
+      "section_title": "search",
+      "score": 1,
+      "document": "3_2 Uninformed Search Strategies.pdf",
+      "importance_rank": 5
+    },
+    {
+      "page_number": 2,
+      "section_title": "problem-specific knowledge",
+      "score": 1,
+      "document": "3_3 Informed Search Strategies.pdf",
+      "importance_rank": 1
+    },
+    {
+      "page_number": 2,
+      "section_title": "evaluation function",
+      "score": 1,
+      "document": "3_3 Informed Search Strategies.pdf",
+      "importance_rank": 2
+    },
+    {
+      "page_number": 2,
+      "section_title": "f(n)",
+      "score": 1,
+      "document": "3_3 Informed Search Strategies.pdf",
+      "importance_rank": 3
+    },
+    {
+      "page_number": 2,
+      "section_title": "h(n)",
+      "score": 1,
+      "document": "3_3 Informed Search Strategies.pdf",
+      "importance_rank": 4
+    },
+    {
+      "page_number": 2,
+      "section_title": "h(n) = estimated cost of the cheapest path from the state at node n to",
+      "score": 1,
+      "document": "3_3 Informed Search Strategies.pdf",
+      "importance_rank": 5
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "page_number": 11,
+      "section_title": "1. STATES",
+      "refined_text": "1. STATES",
+      "score": 1.5,
+      "document": "3_1 Solving Problems by Searching AI.pdf",
+      "importance_rank": 1
+    },
+    {
+      "page_number": 11,
+      "section_title": "2. INITIAL STATE",
+      "refined_text": "2. INITIAL STATE",
+      "score": 1.5,
+      "document": "3_1 Solving Problems by Searching AI.pdf",
+      "importance_rank": 2
+    },
+    {
+      "page_number": 11,
+      "section_title": "3. ACTIONS",
+      "refined_text": "3. ACTIONS",
+      "score": 1.5,
+      "document": "3_1 Solving Problems by Searching AI.pdf",
+      "importance_rank": 3
+    },
+    {
+      "page_number": 11,
+      "section_title": "4. TRANSITION",
+      "refined_text": "4. TRANSITION",
+      "score": 1.5,
+      "document": "3_1 Solving Problems by Searching AI.pdf",
+      "importance_rank": 4
+    },
+    {
+      "page_number": 11,
+      "section_title": "5. GOAL STATES",
+      "refined_text": "5. GOAL STATES",
+      "score": 1.5,
+      "document": "3_1 Solving Problems by Searching AI.pdf",
+      "importance_rank": 5
+    },
+    {
+      "page_number": 12,
+      "section_title": "COST OPTIMALITY",
+      "refined_text": "COST OPTIMALITY",
+      "score": 1.5,
+      "document": "3_2 Uninformed Search Strategies.pdf",
+      "importance_rank": 1
+    },
+    {
+      "page_number": 12,
+      "section_title": "TIME COMPLEXITY",
+      "refined_text": "TIME COMPLEXITY",
+      "score": 1.5,
+      "document": "3_2 Uninformed Search Strategies.pdf",
+      "importance_rank": 2
+    },
+    {
+      "page_number": 12,
+      "section_title": "SPACE COMPLEXITY",
+      "refined_text": "SPACE COMPLEXITY",
+      "score": 1.5,
+      "document": "3_2 Uninformed Search Strategies.pdf",
+      "importance_rank": 3
+    },
+    {
+      "page_number": 2,
+      "section_title": "initial state",
+      "refined_text": "initial state",
+      "score": 1,
+      "document": "3_2 Uninformed Search Strategies.pdf",
+      "importance_rank": 4
+    },
+    {
+      "page_number": 2,
+      "section_title": "search",
+      "refined_text": "search",
+      "score": 1,
+      "document": "3_2 Uninformed Search Strategies.pdf",
+      "importance_rank": 5
+    },
+    {
+      "page_number": 2,
+      "section_title": "problem-specific knowledge",
+      "refined_text": "problem-specific knowledge",
+      "score": 1,
+      "document": "3_3 Informed Search Strategies.pdf",
+      "importance_rank": 1
+    },
+    {
+      "page_number": 2,
+      "section_title": "evaluation function",
+      "refined_text": "evaluation function",
+      "score": 1,
+      "document": "3_3 Informed Search Strategies.pdf",
+      "importance_rank": 2
+    },
+    {
+      "page_number": 2,
+      "section_title": "f(n)",
+      "refined_text": "f(n)",
+      "score": 1,
+      "document": "3_3 Informed Search Strategies.pdf",
+      "importance_rank": 3
+    },
+    {
+      "page_number": 2,
+      "section_title": "h(n)",
+      "refined_text": "h(n)",
+      "score": 1,
+      "document": "3_3 Informed Search Strategies.pdf",
+      "importance_rank": 4
+    },
+    {
+      "page_number": 2,
+      "section_title": "h(n) = estimated cost of the cheapest path from the state at node n to",
+      "refined_text": "h(n) = estimated cost of the cheapest path from the state at node n to",
+      "score": 1,
+      "document": "3_3 Informed Search Strategies.pdf",
+      "importance_rank": 5
+    }
+  ]
+}
