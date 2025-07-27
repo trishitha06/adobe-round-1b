@@ -9,6 +9,16 @@ The task is to analyze a collection of PDF documents and extract the most releva
 
 ---
 
+� Technologies Used (Round 1B) 
+--------------------------------
+• PyMuPDF (fitz): PDF parsing and layout understanding 
+
+• difflib: For fuzzy keyword matching 
+
+• regex (re): Token extraction from job descriptions 
+
+• json, os, time: File handling and metadata recording
+
 ## 🧠 High-Level Approach
 
 Our solution simulates the behavior of an intelligent reader who:
@@ -77,6 +87,14 @@ All matched sections and subsections are sorted by their scores. We assign an `i
 - ✅ Generic scoring that **generalizes to any persona or document type**
 
 ---
+� Docker Commands (Round 1B) 
+------------------------------
+Build Docker Image :
+cd round1b docker build --no-cache --platform linux/amd64 -t mysolution:round1b . 
+
+Run Docker Container: 
+docker run --rm -v ${PWD}/../input:/app/input -v ${PWD}/../output:/app/output --network 
+none mysolution:round1b 
 
 ## 🔒 Assumptions & Limitations
 
