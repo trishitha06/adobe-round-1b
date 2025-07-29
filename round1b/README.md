@@ -29,6 +29,37 @@ Our solution simulates the behavior of an intelligent reader who:
 4. Extracts **refined paragraphs** under key headings for deeper insight.
 
 ---
+🔢Code Explanation (Round 1B)
+----
+main.py
+-----
+• Loads persona.json to get the persona and job.
+• Iterates over PDFs in /app/input.
+• For each file:
+o Calls extract_relevant_sections(pdf_path, persona, job) from
+text_extractors.py.
+o Gets two lists:
+▪ sections: Top headings related to the job
+▪ subsections: Same, with a nearby paragraph extracted
+• Combines results with metadata and writes a final output.json.
+
+text_extractors.py
+----
+• Scans each page for likely headings (same logic as 1A, reused heuristics).
+• Scores headings using:
+o Bold: +1
+o All Caps: +0.5
+o Keyword match (fuzzy or exact): +1.5
+• If score > 0, extracts nearest paragraph from nearby text blocks.
+• Returns top 5 relevant sections and refined subsections.
+
+Keyword Matching
+-----
+• Keywords are extracted from the job-to-be-done using regex.
+• Uses exact and fuzzy match (via difflib) against heading text.
+
+---
+
 
 ## 🏗️ Key Components
 
